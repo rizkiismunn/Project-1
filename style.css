@@ -85,29 +85,27 @@ box-shadow: 5px 5px 15px 5px #000000;
 }
 
 @media (max-width: 576px) {
-    .container {
-        height: 100vh;
-    }
-
     .container-navbar {
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 5vh;
     }
 
     
     .li-navbar {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .container-content {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 80vh;
+        height: 60vh;
     }
 
     .a-content {
+        padding: 2rem;
         font-size: 15px;
         width:360px;
         height: 280px;
@@ -126,13 +124,6 @@ box-shadow: 5px 5px 15px 5px #000000;
     }
 
     .container-footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .h1-footer {
-        font-size: 1.5rem;
-        font-weight: 800;  
+        display: none;
     }
 }
