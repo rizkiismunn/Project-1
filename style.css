@@ -2,6 +2,7 @@
 html {
     margin: 0;
     padding: 0;
+    overflow-y: hidden;
 }
 
 .container {}
@@ -127,3 +128,4 @@ box-shadow: 5px 5px 15px 5px #000000;
         display: none;
     }
 }
+
